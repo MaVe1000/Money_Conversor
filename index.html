@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor monetario</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor Monetario Mywa Online</h1>
+    </header>
+     <p class="textoSuperior">Conversor de monedas en tiempo real.</p>
+    <p class="textoSuperior">Selecciona la moneda  y la cantidad para realizar la conversión:</p>
+    
+    <div class="container">
+        <div class="moneda">
+            <select id="moneda-uno">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD" selected>USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+
+            </select>
+
+            <input 
+            type="number" 
+            id="cantidad-uno" 
+            placeholder="0"  
+            value="1"
+            >
+
+        </div>
+
+        <div class="taza-cambio-container">
+            <button class="btn" id="taza">
+                CAMBIO
+            </button>
+
+            <div class="cambio" id="cambio"></div>
+
+        </div>
+
+        <div class="moneda">
+            <select id="moneda-dos">
+                <option value="AED">AED</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="CAD">CAD</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="EGP">EGP</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HKD">HKD</option>
+                <option value="HRK">HRK</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="ISK">ISK</option>
+                <option value="JPY">JPY</option>
+                <option value="KRW">KRW</option>
+                <option value="KZT">KZT</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PAB">PAB</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="PYG">PYG</option>
+                <option value="RON">RON</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="UAH">UAH</option>
+                <option value="USD">USD</option>
+                <option value="UYU">UYU</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+
+            </select>
+
+            <input 
+            type="number" 
+            id="cantidad-dos" 
+            placeholder="0"  
+            >
+
+        </div>
+</div>
+<div class="tresSecciones">
+<div class="images-container">
+<img src="assets/monedas1.png" alt="Image 1" class="imagenA">
+    <img src="assets/cel2a.png" alt="Image 2" class="center-image">
+</div>
+
+    <div class="conversorApp">
+        <h2>Gestiona tus divisas en cualquier lugar  
+           <h2>del mundo con la APP de Mywa.</h2>
+        </h2>
+        <button class="btnApp">DESCARGAR</button>
+        <p>Tiene todo lo que necesitas para realizar transferencias</p>
+        <p>internacionales: un sistema fácil, seguro y con comisiones</p>   
+        <p>reducidas a partir de 0 USD.</p>
+        <p>Descarga la app de Mywa y comienza a disfrutar de todas las ventajas que te ofrece.</p>
+       
+    </div>
+</div>
+    <footer>
+        <p class="textoFooter">Desarrollado por <strong>M.Verónica Rebolleda</strong>.
+            Todos los derechos reservados. © 2025. </p>
+    </footer>
+<script src="app.js"></script>
+</body>
+
+</html>
