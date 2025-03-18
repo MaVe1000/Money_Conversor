@@ -30,6 +30,9 @@ Este proyecto es una aplicación web que permite convertir entre las monedas de 
    ```bash
    git clone https://github.com/tu_usuario/Money_Conversor.git
    cd conversor-monedas
+
+  - Puedes probarlo en la web o celular accediendo al siguiente enlace:
+ (https://money-conversor-delta.vercel.app/)
    
 ## Uso 📖
 
@@ -37,6 +40,10 @@ Este proyecto es una aplicación web que permite convertir entre las monedas de 
   - Introducir el monto: Escribe el monto que deseas convertir.
   - Seleccionar la moneda de destino: En el segundo campo, selecciona la moneda a la que deseas convertir.
   - Ver el resultado: La conversión se realiza automáticamente y se muestra el monto equivalente en la moneda de destino.
+    
+![Captura de pantalla 2025-03-17 192257](https://github.com/user-attachments/assets/1dbad8b8-6316-4ecb-acaa-6a9a64ca87aa)
+
+
     
 ## Contribuciones 🌟 
 
