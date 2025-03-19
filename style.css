@@ -129,9 +129,8 @@ p {
     padding: 10px 20px 10px 10px;
     border: 1px solid #dedede;
     font-size: 16px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
+    color: white;
+    background: var(--primary-color);
 }
 
 .moneda input {
